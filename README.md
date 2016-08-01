@@ -21,11 +21,23 @@
 4. and finish come to your app page open its setting then you will get two things
 5. APP ID & SECRET ID 
 6. At bottom of the page it will ask you for "site url" give the path of your website where you want to redirect the informations(you     can use localhost also)
-7. now come to the files yo downloaded from github and open "fbconfig.php"
+7. now come to the files you downloaded from github and open "fbconfig.php"
 8. and type APP ID & SECRET ID AND SITE URL
 
 
-And enjoy .........
+And run it & enjoy .........
 
 (NOTE:- If you want to get the user photos on everyones login the you have to go for app review)
+#How To go for app rewiew 
+1. come to settings fill all the blocks like privacy url, there are so many free websites who can do this for you
+   like https://www.freeprivacypolicy.com
+2. Then uplaod a App Icon
+3. Fill "name place"
+4. then change localhost and give some specific site url 
+5. come to app review click of sumbit review and it will ask you for various approvals select USER_PHOTOS
+6. the create a small screencast of your website from starting to ending make sure did this part carefully , i have a bad experience     facebook canceled my review one time and still doing this for approval after submiting apply for submit
+7. and wait for five days 
 
+
+
+i hope so this will work for you..
