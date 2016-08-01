@@ -7,4 +7,9 @@
 5. now jquery(ajax) collects the selected images and it will start creating zip of your album with "php script", while creating zip you     will  find a "spinner" rotating on your window, when process  completes you will find a album report which will ask you to "Download     zip folder " you created .
 6. there is one more option which ask you to "download all" and you will download a full zip of your albums
 
+# library used
+1. http://spin.js.org (for spinner)
+2. http://www.w3schools.com/bootstrap/ (for bootstrap and html css)
+3. http://www.javatpoint.com/jquery-tutorial (for jquery complete help)
+4. facebook library
 
