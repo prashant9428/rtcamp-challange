@@ -10,7 +10,7 @@
 	
 }
 #status {
-	background-image: url("../img/fb-logo.png");
+	background-image: url("../images/fb-logo.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -43,13 +43,13 @@
 }
 /* page loder end */
 .jumbotron { 
-     background-image: url('../img/bg3.jpg');
+     background-image: url('../images/bg3.jpg');
     color:steelblue ;
     text-align:center;
    
 }
 .jumbotron1 { 
-    background-image: url('../img/bg3.jpg');
+    background-image: url('../images/bg3.jpg');
     background-repeat: no-repeat;
     color:white ;
     text-align:center;
@@ -62,7 +62,7 @@
    padding: 0;
    height: auto;
    color:steelblue;
-  background-image: url('../img/bg3.jpg');
+  background-image: url('../images/bg3.jpg');
    background-position:center center;
     text-align:center;
 }
