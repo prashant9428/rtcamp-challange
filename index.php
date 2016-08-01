@@ -145,7 +145,7 @@
           
         
                      <div  class="design col-md-12">
-                               <img src="img/sad-cart.png" height="250px">
+                               <img src="images/sad-cart.png" height="250px">
    
                     </div>
         
@@ -301,7 +301,7 @@ $error .= "* You dont have ZIP extension";
 			    <div  id="top" class="callbacks_container">
 			      <ul class="rslides" id="slider4">
 			        <li>
-                                     <img src="img/slide.jpg" width="100%" height="100%" alt="">
+                                     <img src="images/slide.jpg" width="100%" height="100%" alt="">
 			          <div class="caption text-center">
 			          	<div class="slide-text-info">
 			          		<h1>Introducing <br><br> <span>facebook <br><br>photos</span></h1>
@@ -313,7 +313,7 @@ $error .= "* You dont have ZIP extension";
 			          </div>
 			        </li>
                                 <li>
-			           <img src="img/slide1.jpg" width="100%" height="100%" alt="">
+			           <img src="images/slide1.jpg" width="100%" height="100%" alt="">
 			          <div class="caption text-center">
 			          	<div class="slide-text-info">
 			          		<h1>just one <br><br>login to your <br><br><span>Account </span></h1>
@@ -325,7 +325,7 @@ $error .= "* You dont have ZIP extension";
 			          </div>
 			        </li>
 			        <li>
-			           <img src="img/slide.jpg" width="100%" height="100%" alt="">
+			           <img src="images/slide.jpg" width="100%" height="100%" alt="">
 			          <div class="caption text-center">
 			          	<div class="slide-text-info">
 			          		<h1>And click <br><br>on Your<br><br><span> Album</span></h1>
@@ -337,7 +337,7 @@ $error .= "* You dont have ZIP extension";
 			          </div>
 			        </li>
 			        <li>
-			          <img src="img/slide3.jpg" width="100%" height="100%" alt="">
+			          <img src="images/slide3.jpg" width="100%" height="100%" alt="">
 			          <div class="caption text-center">
 			          	<div class="slide-text-info">
 			          		<h1>And here <br><br>is your<br><br> <span> Download</span></h1>
@@ -449,7 +449,7 @@ $( document ).ready(function() {
            
            $("p").text(count);
            
-         $(".design").html("<img src='img/smile-cart.jpg' height='250px';>");    
+         $(".design").html("<img src='images/smile-cart.jpg' height='250px';>");    
      
             
             
@@ -457,7 +457,7 @@ $( document ).ready(function() {
        if(!$(this).is(':checked')){
             count--;
             
-           $(".design").html("<img src='img/sad-cart.png 'height='250px';>");
+           $(".design").html("<img src='images/sad-cart.png 'height='250px';>");
           
         }
         function display(){
