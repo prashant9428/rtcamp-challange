@@ -13,3 +13,19 @@
 3. http://www.javatpoint.com/jquery-tutorial (for jquery complete help)
 4. facebook library
 
+#How to use these codes => DOWNLOAD THE ZIP FROM GITHUB
+
+1. go to https://developers.facebook.com/ and add a new app
+2. then select www the give a name to your app
+3. them email address
+4. and finish come to your app page open its setting then you will get two things
+5. APP ID & SECRET ID 
+6. At bottom of the page it will ask you for "site url" give the path of your website where you want to redirect the informations(you     can use localhost also)
+7. now come to the files yo downloaded from github and open "fbconfig.php"
+8. and type APP ID & SECRET ID AND SITE URL
+
+
+And enjoy .........
+
+(NOTE:- If you want to get the user photos on everyones login the you have to go for app review)
+
