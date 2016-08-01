@@ -27,7 +27,7 @@
 
 And run it & enjoy .........
 
-(NOTE:- If you want to get the user photos on everyones login the you have to go for app review)
+(NOTE:- If you want to get the user photos on everyones login then you have to go for app review)
 #How To go for app rewiew 
 1. come to settings fill all the blocks like privacy url, there are so many free websites who can do this for you
    like https://www.freeprivacypolicy.com
