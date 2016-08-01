@@ -41,3 +41,13 @@ And run it & enjoy .........
 
 
 i hope so this will work for you..
+
+# Issues in this project
+
+this project is completely ready but there is one part of the assignment where i have to move the images in google picasa , earlier it was done by zend with gdata library Aouth libraries but after 20 april 2015 google canceld the Aouth 1.0 and they come to 2.0
+and zend has no library who works for this, 
+the differene is REFRESH TOCKENS which is there .. i did my best to do so but sadly i didnt get the solution
+
+so i did this with zend as much i can do .
+
+Thank you..
