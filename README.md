@@ -35,7 +35,7 @@ And run it & enjoy .........
 3. Fill "name place"
 4. then change localhost and give some specific site url 
 5. come to app review click of sumbit review and it will ask you for various approvals select USER_PHOTOS
-6. the create a small screencast of your website from starting to ending make sure did this part carefully , i have a bad experience     facebook canceled my review one time and still doing this for approval after submiting apply for submit
+6. then create a small screencast(small video) of your website from starting to ending make sure did this part carefully , i have a      bad experience facebook canceled my review one time and still doing this for approval after submiting apply for submit
 7. and wait for five days 
 
 
