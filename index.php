@@ -87,10 +87,7 @@
        <div id="preloader">
 			<div id="status">&nbsp;</div>
 		</div>
-     <!-- progress bar -->  
-       <div id="myProgress">
-  <div id="myBar"></div>
-  </div>
+     
      <!--user info name and logout details -->
        <div class="header text-center">
 			
@@ -199,8 +196,8 @@
 					}
 					
 					?>
-                    <div class="col-sm-5 col-md-4">
-						<span> <a href="home.php?ida=<?php echo $album['id']; ?>"><?php echo $album['name']; ?></a>
+                    <div class="col-sm-4 col-md-4">
+						<span> <a href="#"><?php echo $album['name']; ?></a>
 						</span>
 
 						<div class='thumbnail'
@@ -220,7 +217,7 @@
 							</span>
 							<button rel="<?php echo $album['id'].','.$album['name'];?>"
 								class="single-download btn btn-default btn-sm"
-								name="createzip"title="Download Album">
+								title="Download Album">
 								<span class="glyphicon glyphicon-save" aria-hidden="true"></span>
 							</button>
 							<button type="button" class="move-single-album btn btn-default btn-sm">
@@ -229,51 +226,7 @@
 							</button>
 						</div>
                         
-                        <?php
-if(isset($_POST['files']))
-{
-$error = ""; //error holder
-if(isset($_POST['createzip']))
-{
-$post = $_POST; 
-$file_folder =   $album['id'];
-if(extension_loaded('zip'))
-{ 
-// Checking ZIP extension is available
-if(isset($post['files']) and count($post['files']) > 0)
-{ 
-// Checking files are selected
-$zip = new ZipArchive(); // Load zip library 
-$zip_name = time().".zip"; // Zip name
-if($zip->open($zip_name, ZIPARCHIVE::CREATE)!==TRUE)
-{ 
- // Opening zip file to load files
-$error .= "* Sorry ZIP creation failed at this time";
-}
-foreach($post['files'] as $file)
-{ 
-$zip->addFile($file_folder.$file); // Adding files into zip
-}
-$zip->close();
-if(file_exists($zip_name))
-{
-// push to download the zip
-header('Content-type: application/zip');
-header('Content-Disposition: attachment; filename="'.$zip_name.'"');
-readfile($zip_name);
-// remove zip file is exists in temp path
-unlink($zip_name);
-}
-
-}
-else
-$error .= "* Please select file to zip ";
-}
-else
-$error .= "* You dont have ZIP extension";
-}
-}
-?>
+                 
                         
                         
 					</div>
